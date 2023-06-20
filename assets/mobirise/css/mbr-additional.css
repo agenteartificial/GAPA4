@@ -35,11 +35,11 @@ body {
 }
 .display-7 {
   font-family: 'Kantumruy Pro', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -73,9 +73,9 @@ body {
     line-height: calc( 1.4 * (1.245rem + (1.7 - 1.245) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -941,6 +941,7 @@ a {
 }
 .cid-tjRuQo193e .plan-title {
   color: #d91717;
+  text-align: center;
 }
 .cid-tHFiec6ZAn {
   padding-top: 5rem;
@@ -1078,6 +1079,333 @@ a {
   color: #d91717;
 }
 .cid-tHFmblpsCd .mbr-section-subtitle {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tHFFDtDdMA {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #000000;
+  overflow: hidden;
+}
+.cid-tHFs58TVmD {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/limpias-272-512x512.jpg");
+}
+.cid-tHFs58TVmD .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tHFs58TVmD .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tHFs58TVmD .btn {
+  padding: 1.5rem 5rem;
+  border: 0 !important;
+}
+@media (max-width: 767px) {
+  .cid-tHFs58TVmD .btn {
+    padding: 1.5rem 3rem;
+  }
+}
+.cid-tHFs58TVmD .row {
+  align-items: center;
+}
+.cid-tHFs58TVmD img {
+  border-radius: 2rem;
+}
+.cid-tHFs58TVmD .image-wrapper {
+  background: #d91717;
+  padding: 4rem 5rem;
+  border-radius: 2rem;
+}
+@media (max-width: 991px) {
+  .cid-tHFs58TVmD .image-wrapper {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-tHFs58TVmD .image-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-tHFs58TVmD .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-tHFs58TVmD .mbr-section-title {
+  color: #d91717;
+}
+.cid-tHFs58TVmD .mbr-text,
+.cid-tHFs58TVmD .mbr-section-btn {
+  color: #e3f3ff;
+}
+.cid-tHFs59nDk3 {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  background-color: #000000;
+}
+.cid-tHFs59nDk3 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tHFs59nDk3 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tHFs59nDk3 .mbr-text {
+  color: #726c89;
+}
+.cid-tHFs59nDk3 .mbr-section-title {
+  color: #000000;
+}
+.cid-tHFs59nDk3 .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-tHFs59HtnV {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/limpias-264-512x512.jpg");
+}
+.cid-tHFs59HtnV .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tHFs59HtnV .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tHFs59HtnV ul {
+  list-style: none;
+}
+.cid-tHFs59HtnV li {
+  padding-bottom: 0.5rem;
+}
+.cid-tHFs59HtnV ul li::before {
+  content: "\2022";
+  color: #d91717;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1rem;
+}
+.cid-tHFs59HtnV .list-group-item {
+  color: #ff6666;
+}
+.cid-tHFs59HtnV .plan-body {
+  padding-bottom: 2rem;
+}
+.cid-tHFs59HtnV .card1 {
+  background: #111019;
+}
+@media (min-width: 767px) {
+  .cid-tHFs59HtnV .card1 {
+    transform: translateX(2rem);
+  }
+}
+.cid-tHFs59HtnV .card2 {
+  background: #ffffff;
+}
+@media (min-width: 767px) {
+  .cid-tHFs59HtnV .card2 {
+    transform: translateX(-2rem);
+  }
+}
+.cid-tHFs59HtnV .plan-header {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cid-tHFs59HtnV .price {
+  color: #d91717;
+}
+.cid-tHFs59HtnV .plan {
+  word-break: break-word;
+  padding: 3rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 20px 0 lightgray;
+}
+.cid-tHFs59HtnV .plan .list-group-item {
+  position: relative;
+  justify-content: center;
+  border: 0;
+}
+@media (max-width: 992px) {
+  .cid-tHFs59HtnV .plan {
+    padding: 1rem 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-tHFs59HtnV .plan {
+    margin-bottom: 2rem;
+  }
+}
+.cid-tHFs59HtnV .mbr-text UL {
+  text-align: left;
+}
+.cid-tHFs59HtnV .mbr-text {
+  color: #ffffff;
+}
+.cid-tHFs59HtnV .price-term {
+  color: #bbbbbb;
+}
+.cid-tHFs59HtnV .title {
+  color: #1b224b;
+}
+.cid-tHFs59HtnV .plan-title {
+  color: #d91717;
+}
+.cid-tHFs5a11Rd {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #000000;
+}
+.cid-tHFs5a11Rd .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tHFs5a11Rd img {
+  border-radius: 2rem;
+  margin-top: 6rem;
+  box-shadow: 0 0 100px 0 #d91717;
+}
+@media (max-width: 767px) {
+  .cid-tHFs5a11Rd img {
+    margin-top: 2rem;
+  }
+}
+.cid-tHFs5a11Rd .row {
+  background: #111019;
+  border-radius: 4rem;
+  padding: 8rem 1rem;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .cid-tHFs5a11Rd .row {
+    border-radius: 2rem;
+    padding: 2rem 1rem;
+  }
+}
+.cid-tHFs5a11Rd .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tHFs5a11Rd .mbr-text,
+.cid-tHFs5a11Rd .mbr-section-btn {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tHFs5a11Rd .mbr-section-title {
+  text-align: center;
+  color: #d91717;
+}
+.cid-tHFs5a11Rd .mbr-section-subtitle {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tHFs5ahb8O {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/limpias-279-512x512.jpg");
+}
+.cid-tHFs5ahb8O .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tHFs5ahb8O .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tHFs5ahb8O .row {
+  align-items: center;
+}
+.cid-tHFs5ahb8O img {
+  border-radius: 2rem;
+}
+@media (min-width: 992px) {
+  .cid-tHFs5ahb8O .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-tHFs5ahb8O .mbr-section-title {
+  color: #d91717;
+}
+.cid-tHFs5ahb8O .mbr-text,
+.cid-tHFs5ahb8O .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-tHFs5azue8 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #000000;
+}
+.cid-tHFs5azue8 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tHFs5azue8 img {
+  border-radius: 2rem;
+  margin-top: 6rem;
+  box-shadow: 0 0 100px 0 #d91717;
+}
+@media (max-width: 767px) {
+  .cid-tHFs5azue8 img {
+    margin-top: 2rem;
+  }
+}
+.cid-tHFs5azue8 .row {
+  background: #111019;
+  border-radius: 4rem;
+  padding: 8rem 1rem;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .cid-tHFs5azue8 .row {
+    border-radius: 2rem;
+    padding: 2rem 1rem;
+  }
+}
+.cid-tHFs5azue8 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tHFs5azue8 .mbr-text,
+.cid-tHFs5azue8 .mbr-section-btn {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tHFs5azue8 .mbr-section-title {
+  text-align: center;
+  color: #d91717;
+}
+.cid-tHFs5azue8 .mbr-section-subtitle {
   text-align: center;
   color: #ffffff;
 }
@@ -1399,327 +1727,6 @@ a {
   color: #d91717;
 }
 .cid-tHFoByhKn7 .mbr-section-subtitle {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-tHFs58TVmD {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/limpias-272-512x512.jpg");
-}
-.cid-tHFs58TVmD .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tHFs58TVmD .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tHFs58TVmD .btn {
-  padding: 1.5rem 5rem;
-  border: 0 !important;
-}
-@media (max-width: 767px) {
-  .cid-tHFs58TVmD .btn {
-    padding: 1.5rem 3rem;
-  }
-}
-.cid-tHFs58TVmD .row {
-  align-items: center;
-}
-.cid-tHFs58TVmD img {
-  border-radius: 2rem;
-}
-.cid-tHFs58TVmD .image-wrapper {
-  background: #d91717;
-  padding: 4rem 5rem;
-  border-radius: 2rem;
-}
-@media (max-width: 991px) {
-  .cid-tHFs58TVmD .image-wrapper {
-    margin-top: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-tHFs58TVmD .image-wrapper {
-    padding: 1rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-tHFs58TVmD .text-wrapper {
-    padding: 0 2rem;
-  }
-}
-.cid-tHFs58TVmD .mbr-section-title {
-  color: #d91717;
-}
-.cid-tHFs58TVmD .mbr-text,
-.cid-tHFs58TVmD .mbr-section-btn {
-  color: #e3f3ff;
-}
-.cid-tHFs59nDk3 {
-  padding-top: 5rem;
-  padding-bottom: 6rem;
-  background-color: #000000;
-}
-.cid-tHFs59nDk3 .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tHFs59nDk3 .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tHFs59nDk3 .mbr-text {
-  color: #726c89;
-}
-.cid-tHFs59nDk3 .mbr-section-title {
-  color: #000000;
-}
-.cid-tHFs59nDk3 .mbr-section-subtitle {
-  color: #ffffff;
-}
-.cid-tHFs59HtnV {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-image: url("../../../assets/images/limpias-264-512x512.jpg");
-}
-.cid-tHFs59HtnV .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tHFs59HtnV .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tHFs59HtnV ul {
-  list-style: none;
-}
-.cid-tHFs59HtnV li {
-  padding-bottom: 0.5rem;
-}
-.cid-tHFs59HtnV ul li::before {
-  content: "\2022";
-  color: #d91717;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1rem;
-}
-.cid-tHFs59HtnV .list-group-item {
-  color: #ff6666;
-}
-.cid-tHFs59HtnV .plan-body {
-  padding-bottom: 2rem;
-}
-.cid-tHFs59HtnV .card1 {
-  background: #111019;
-}
-@media (min-width: 767px) {
-  .cid-tHFs59HtnV .card1 {
-    transform: translateX(2rem);
-  }
-}
-.cid-tHFs59HtnV .card2 {
-  background: #ffffff;
-}
-@media (min-width: 767px) {
-  .cid-tHFs59HtnV .card2 {
-    transform: translateX(-2rem);
-  }
-}
-.cid-tHFs59HtnV .plan-header {
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.cid-tHFs59HtnV .price {
-  color: #d91717;
-}
-.cid-tHFs59HtnV .plan {
-  word-break: break-word;
-  padding: 3rem;
-  border-radius: 3rem;
-  box-shadow: 0 0 20px 0 lightgray;
-}
-.cid-tHFs59HtnV .plan .list-group-item {
-  position: relative;
-  justify-content: center;
-  border: 0;
-}
-@media (max-width: 992px) {
-  .cid-tHFs59HtnV .plan {
-    padding: 1rem 1rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-tHFs59HtnV .plan {
-    margin-bottom: 2rem;
-  }
-}
-.cid-tHFs59HtnV .mbr-text UL {
-  text-align: left;
-}
-.cid-tHFs59HtnV .mbr-text {
-  color: #ffffff;
-}
-.cid-tHFs59HtnV .price-term {
-  color: #bbbbbb;
-}
-.cid-tHFs59HtnV .title {
-  color: #1b224b;
-}
-.cid-tHFs59HtnV .plan-title {
-  color: #d91717;
-}
-.cid-tHFs5a11Rd {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #000000;
-}
-.cid-tHFs5a11Rd .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tHFs5a11Rd img {
-  border-radius: 2rem;
-  margin-top: 6rem;
-  box-shadow: 0 0 100px 0 #d91717;
-}
-@media (max-width: 767px) {
-  .cid-tHFs5a11Rd img {
-    margin-top: 2rem;
-  }
-}
-.cid-tHFs5a11Rd .row {
-  background: #111019;
-  border-radius: 4rem;
-  padding: 8rem 1rem;
-  margin: 0;
-}
-@media (max-width: 767px) {
-  .cid-tHFs5a11Rd .row {
-    border-radius: 2rem;
-    padding: 2rem 1rem;
-  }
-}
-.cid-tHFs5a11Rd .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tHFs5a11Rd .mbr-text,
-.cid-tHFs5a11Rd .mbr-section-btn {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-tHFs5a11Rd .mbr-section-title {
-  text-align: center;
-  color: #d91717;
-}
-.cid-tHFs5a11Rd .mbr-section-subtitle {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-tHFs5ahb8O {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/limpias-279-512x512.jpg");
-}
-.cid-tHFs5ahb8O .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tHFs5ahb8O .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tHFs5ahb8O .row {
-  align-items: center;
-}
-.cid-tHFs5ahb8O img {
-  border-radius: 2rem;
-}
-@media (min-width: 992px) {
-  .cid-tHFs5ahb8O .text-wrapper {
-    padding: 0 2rem;
-  }
-}
-.cid-tHFs5ahb8O .mbr-section-title {
-  color: #d91717;
-}
-.cid-tHFs5ahb8O .mbr-text,
-.cid-tHFs5ahb8O .mbr-section-btn {
-  color: #ffffff;
-}
-.cid-tHFs5azue8 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #000000;
-}
-.cid-tHFs5azue8 .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tHFs5azue8 img {
-  border-radius: 2rem;
-  margin-top: 6rem;
-  box-shadow: 0 0 100px 0 #d91717;
-}
-@media (max-width: 767px) {
-  .cid-tHFs5azue8 img {
-    margin-top: 2rem;
-  }
-}
-.cid-tHFs5azue8 .row {
-  background: #111019;
-  border-radius: 4rem;
-  padding: 8rem 1rem;
-  margin: 0;
-}
-@media (max-width: 767px) {
-  .cid-tHFs5azue8 .row {
-    border-radius: 2rem;
-    padding: 2rem 1rem;
-  }
-}
-.cid-tHFs5azue8 .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tHFs5azue8 .mbr-text,
-.cid-tHFs5azue8 .mbr-section-btn {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-tHFs5azue8 .mbr-section-title {
-  text-align: center;
-  color: #d91717;
-}
-.cid-tHFs5azue8 .mbr-section-subtitle {
   text-align: center;
   color: #ffffff;
 }
